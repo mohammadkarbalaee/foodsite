@@ -9,7 +9,7 @@ const SpecialMenu = () => (
     <div className="app__specialMenu-title">
       <SubHeading title="menu that fill you better"/>
       <h1 className="headtext__cormorant">
-        todoya special
+        Todoy Special
       </h1>
     </div>
     <div className="app__specialMenu-menu">

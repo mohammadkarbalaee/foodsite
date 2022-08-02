@@ -25,7 +25,7 @@
     text-align: center;
 }
 .app__footer-links-logo img:first-child{
-    width: 210px;
+    width: 100px;
     margin-bottom: 0.75rem;
 
 }
@@ -34,6 +34,7 @@
 
 }
 .app__footer-links_icons{
+    text-align: center;
     margin-top: 0.5rem;
 }
 .app__footer-links_icons svg{
@@ -48,7 +49,7 @@
 }
 .app__footer-headtext{
     font-family: var(--font-base);
-    color: var(--color-white);
+    color: var(--color-golden);
     font-weight: 400;
     letter-spacing: 0.04em;
     text-transform: capitalize;
@@ -59,6 +60,9 @@
 }
 .footer__copyright{
     margin-top: 3rem;
+}
+.footer__copyright p{
+    color: rgba(153, 153, 153, 0.589);
 }
 @media screen and (min-width:2000px) {
     .app__footer-headtext{
@@ -78,7 +82,7 @@
     .app__footer-links-logo,
     .app__footer-links-work{
         margin: 2rem 0;
-        width: 100%;
+        width: 200px;
     }
     
 }
@@ -90,7 +94,7 @@
 }
 @media screen and (max-width:350px) {
     .app__footer-links-logo img:first-child{
-        width: 80%;
+        width: 180px;
 
     }
     

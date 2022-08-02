@@ -1,7 +1,7 @@
 import React from 'react';
 import { FooterOverlay , Newsletter } from '../../components';
 import './Footer.css';
-import {FiFacebook , FiInstagram , FiTwitter} from "react-icons/fi"
+import {FiFacebook , FiInstagram , FiTwitter} from "react-icons/fi";
 import { images } from '../../constants';
 const Footer = () => (
   <div className='app__footer section__padding'>
@@ -9,7 +9,7 @@ const Footer = () => (
     <Newsletter />
     <div className="app__footer-links">
       <div className="app__footer-links_contact">
-        <h1 className="app__footer-headte">contact us</h1>
+        <h1 className="app__footer-headtext">contact us</h1>
         <p className="p__opensans">this adress</p>
         <p className="p__opensans">phone number</p>
         <p className="p__opensans">second phone number</p>
@@ -28,7 +28,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="app__footer-links_work">
-      <h1 className="app__footer-headte">working hours</h1>
+      <h1 className="app__footer-headtext">working hours</h1>
         <p className="p__opensans">monday-friday</p>
         <p className="p__opensans">hour workingr</p>
         <p className="p__opensans">second phone number</p>
