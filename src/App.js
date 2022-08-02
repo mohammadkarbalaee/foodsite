@@ -1,5 +1,6 @@
 import React from 'react';
-
+// import {images , data} from "../../constants";
+// import {SubHeading} from "../../components"
 import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 import { Navbar } from './components';
 import './App.css';
